@@ -12,7 +12,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg shadow">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Port_City_International_University_Logo.png"
@@ -42,11 +42,19 @@
 
         <main>
             <section id="register">
+                <div class="registerCard shadow p-3 rounded">
+                    <h2 class="mb-3">Register</h2>
                 <form action="" method="post">
-                    <div class="container">
-                        
-                    </div>
-                </form>
+                        <input type="text" class="my-2 form-control" placeholder="Enter Your Name">
+                        <input type="text" class="my-2 form-control" placeholder="Enter Your Email">
+                        <input type="text" class="my-2 form-control" placeholder="Enter Your Phone">
+                        <select name="gender" class="form-control">
+                            <option value="male">Male</option>
+                            <option value="male">Female</option>
+                        </select>
+                        <button class="myBtn mt-4">Register Now</button>
+                    </form>
+                </div>
             </section>
         </main>
 
